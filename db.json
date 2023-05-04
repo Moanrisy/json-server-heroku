@@ -1,16 +1,100 @@
 {
-  "posts":[
+  "kapal": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "id": 1,
+      "nama": "KM Tatamailau",
+      "kapasitas_penumpang": 200,
+      "jumlah_kabin": 50,
+      "fasilitas": "AC, Toilet, TV",
+      "rute": "Makassar - Surabaya"
+    },
+    {
+      "id": 2,
+      "nama": "KM Bukit Raya",
+      "kapasitas_penumpang": 300,
+      "jumlah_kabin": 75,
+      "fasilitas": "AC, Toilet, Restoran",
+      "rute": "Pontianak - Jakarta"
+    },
+    {
+      "id": 3,
+      "nama": "KM Kerinci",
+      "kapasitas_penumpang": 150,
+      "jumlah_kabin": 40,
+      "fasilitas": "AC, Toilet",
+      "rute": "Padang - Bengkulu"
     }
   ],
-  "comments" : [
+  "jadwal_kapal": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "id": 1,
+      "id_kapal": 1,
+      "tanggal_keberangkatan": "2023-06-01",
+      "waktu_keberangkatan": "08:00",
+      "harga_tiket": 200000
+    },
+    {
+      "id": 2,
+      "id_kapal": 1,
+      "tanggal_keberangkatan": "2023-06-02",
+      "waktu_keberangkatan": "09:00",
+      "harga_tiket": 250000
+    },
+    {
+      "id": 3,
+      "id_kapal": 2,
+      "tanggal_keberangkatan": "2023-06-01",
+      "waktu_keberangkatan": "10:00",
+      "harga_tiket": 150000
+    },
+    {
+      "id": 4,
+      "id_kapal": 2,
+      "tanggal_keberangkatan": "2023-06-02",
+      "waktu_keberangkatan": "11:00",
+      "harga_tiket": 180000
+    },
+    {
+      "id": 5,
+      "id_kapal": 3,
+      "tanggal_keberangkatan": "2023-06-01",
+      "waktu_keberangkatan": "12:00",
+      "harga_tiket": 100000
+    },
+    {
+      "id": 6,
+      "id_kapal": 3,
+      "tanggal_keberangkatan": "2023-06-02",
+      "waktu_keberangkatan": "13:00",
+      "harga_tiket": 120000
+    }
+  ],
+  "penumpang": [
+    {
+      "id": 1,
+      "nama": "John Doe",
+      "jenis_kelamin": "Laki-laki",
+      "nomor_identitas": "1234567890"
+    },
+    {
+      "id": 2,
+      "nama": "Jane Doe",
+      "jenis_kelamin": "Perempuan",
+      "nomor_identitas": "0987654321"
+    }
+  ],
+  "laporan_masalah": [
+    {
+      "id": 1,
+      "jenis_masalah": "Kapal terlambat",
+      "deskripsi": "Kapal tidak berangkat sesuai jadwal yang tertera di website Pelni",
+      "foto": "https://example.com/foto-kapal-terlambat.jpg"
+    },
+    {
+      "id": 2,
+      "jenis_masalah": "Masalah keamanan",
+      "deskripsi": "Saya merasa tidak aman selama perjalanan karena ada penumpang yang mencurigakan",
+      "foto": "https://example.com/foto-masalah-keamanan.jpg"
     }
   ]
 }
