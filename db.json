@@ -2,71 +2,88 @@
   "kapal": [
     {
       "id": 1,
-      "nama": "KM Tatamailau",
-      "kapasitas_penumpang": 200,
-      "jumlah_kabin": 50,
-      "fasilitas": "AC, Toilet, TV",
-      "rute": "Makassar - Surabaya"
+      "nama": "KM Kelud",
+      "kapasitas": 200,
+      "jenis": "Kapal Penumpang",
+      "gambar": "https://example.com/km-kelud.jpg",
+      "fasilitas": [
+        "AC",
+        "Toilet",
+        "Kantin",
+        "Tempat Duduk yang Nyaman"
+      ]
     },
     {
       "id": 2,
-      "nama": "KM Bukit Raya",
-      "kapasitas_penumpang": 300,
-      "jumlah_kabin": 75,
-      "fasilitas": "AC, Toilet, Restoran",
-      "rute": "Pontianak - Jakarta"
+      "nama": "KM Sembilang",
+      "kapasitas": 150,
+      "jenis": "Kapal Penumpang",
+      "gambar": "https://example.com/km-sembilang.jpg",
+      "fasilitas": [
+        "AC",
+        "Toilet",
+        "Kantin"
+      ]
     },
     {
       "id": 3,
-      "nama": "KM Kerinci",
-      "kapasitas_penumpang": 150,
-      "jumlah_kabin": 40,
-      "fasilitas": "AC, Toilet",
-      "rute": "Padang - Bengkulu"
+      "nama": "KM Bahari",
+      "kapasitas": 100,
+      "jenis": "Kapal Barang",
+      "gambar": "https://example.com/km-bahari.jpg",
+      "fasilitas": [
+        "Kapasitas Barang 200 Ton",
+        "Kran untuk Pemuatan Barang",
+        "Toilet",
+        "Kantin"
+      ]
     }
   ],
-  "jadwal_kapal": [
+  "jadwal": [
     {
       "id": 1,
-      "id_kapal": 1,
-      "tanggal_keberangkatan": "2023-06-01",
-      "waktu_keberangkatan": "08:00",
-      "harga_tiket": 200000
+      "kapal_id": 1,
+      "tanggal": "2023-06-01",
+      "berangkat_dari": "Surabaya",
+      "tujuan": "Makassar",
+      "waktu_berangkat": "08:00",
+      "harga": 500000
     },
     {
       "id": 2,
-      "id_kapal": 1,
-      "tanggal_keberangkatan": "2023-06-02",
-      "waktu_keberangkatan": "09:00",
-      "harga_tiket": 250000
+      "kapal_id": 2,
+      "tanggal": "2023-06-02",
+      "berangkat_dari": "Jakarta",
+      "tujuan": "Makassar",
+      "waktu_berangkat": "10:00",
+      "harga": 450000
     },
     {
       "id": 3,
-      "id_kapal": 2,
-      "tanggal_keberangkatan": "2023-06-01",
-      "waktu_keberangkatan": "10:00",
-      "harga_tiket": 150000
+      "kapal_id": 1,
+      "tanggal": "2023-06-03",
+      "berangkat_dari": "Surabaya",
+      "tujuan": "Makassar",
+      "waktu_berangkat": "08:00",
+      "harga": 500000
     },
     {
       "id": 4,
-      "id_kapal": 2,
-      "tanggal_keberangkatan": "2023-06-02",
-      "waktu_keberangkatan": "11:00",
-      "harga_tiket": 180000
+      "kapal_id": 2,
+      "tanggal": "2023-06-04",
+      "berangkat_dari": "Jakarta",
+      "tujuan": "Makassar",
+      "waktu_berangkat": "10:00",
+      "harga": 450000
     },
     {
       "id": 5,
-      "id_kapal": 3,
-      "tanggal_keberangkatan": "2023-06-01",
-      "waktu_keberangkatan": "12:00",
-      "harga_tiket": 100000
-    },
-    {
-      "id": 6,
-      "id_kapal": 3,
-      "tanggal_keberangkatan": "2023-06-02",
-      "waktu_keberangkatan": "13:00",
-      "harga_tiket": 120000
+      "kapal_id": 3,
+      "tanggal": "2023-06-05",
+      "berangkat_dari": "Surabaya",
+      "tujuan": "Makassar",
+      "waktu_berangkat": "09:00",
+      "harga": 800000
     }
   ],
   "penumpang": [
